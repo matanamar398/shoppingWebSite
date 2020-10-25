@@ -1,0 +1,68 @@
+
+/* prices postions and style row 1 */
+.prices1{
+    background-color:none;
+    border: none;
+    font-size: 0.8rem;
+        color: black;
+ font-style: unset;
+        top: 58%;
+        position: absolute;
+        text-align: center;
+    }
+/* prices postions and style col1 */
+#col1{
+position: absolute;
+left:5%;
+text-align: center;
+}
+ 
+    /* prices postions row 2 */
+    .prices2{
+        background-color:#F7F6F0;
+        border: none;
+        font-size: 0.8rem;
+            color: black;
+     font-style: unset;
+            top: 108%;
+            position: absolute;
+            text-align: center;
+        }
+        
+        /* prices postions and style col2 */
+#col2{
+    position: absolute;
+    left:29%;
+    text-align: center;
+    }
+    /* prices postions row 3 */
+    .prices3{
+        text-align: center;
+        background-color:#F7F6F0;
+        border: none;
+        font-size: 0.8rem;
+            color: black;
+     font-style: unset;
+            top: 162%;
+            position: absolute;
+        }
+    /* prices postions and style col3 */
+#col3{
+    position: absolute;
+    left:55%;
+    text-align: center;
+    }
+
+        /* prices postions and style col4 */
+#col4{
+    position: absolute;
+    left:80%;
+    text-align: center;
+    }
+
+h1{
+
+    position: absolute;
+    text-align: center;
+}
+

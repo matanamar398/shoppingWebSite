@@ -1,0 +1,85 @@
+body{
+background-color: rgb(63, 65, 65);
+}
+
+
+/* the picture */
+.ResultPagePic{    
+position: absolute;
+top:-75%;
+left:-0.3%;
+width: 400px;
+height: 280px;
+border:black 2px outset;
+}
+
+
+
+/* result text */
+#ShoppingResult{
+    color: rgb(194, 194, 194);
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    left: 2%;
+    opacity: 0.8;
+    }
+
+#ShoppingResult:hover{
+    opacity: 1.0;
+}
+
+#line1{
+        position: absolute;
+        top: 30%;
+        left: 2%;
+      background-color: black;
+        height: 0.1%;
+        width: 90%;
+}
+
+#productDiv{
+position: absolute;
+top:70%;
+background-color: rgb(24, 23, 23);
+width: 401px;
+height: 250px;
+left:2%;
+border:black  2px outset;
+}
+
+#productDetails{
+  position: absolute;
+  top:55%;
+  left:11%;
+  color:white;
+  font-size: 0.9rem;
+  opacity: 0.7;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#productPrice{
+  position: absolute;
+  top:73%;
+  left:33%;
+  color:rgb(89, 238, 43);
+  opacity: 0.7;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#productPriceBefore{
+  position: absolute;
+  top:45%;
+  left:10%;
+  font-size: 1.1rem;
+  opacity: 0.2;
+  color:red;
+  opacity: 0.7;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+}

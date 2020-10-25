@@ -1,0 +1,122 @@
+
+/* pics row 1 postion */
+.picsRow1{
+top: 24%;
+left:3%;
+position: absolute;
+width: 250px;
+height: 200px;
+transition: 500ms;
+
+opacity: 0.5;
+}
+
+.picsRow1:hover{
+position: absolute;
+width: 280px;
+height: 220px;
+transition: 1000ms;
+border:black 0.5px inset;
+opacity: 1.0;
+}
+
+/* pics row 2 postion */
+.picsRow2{
+    top: 75%;
+    left:3%;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    transition: 500ms;
+
+    opacity: 0.5;
+    }
+    
+    .picsRow2:hover{
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    transition: 1000ms;
+    border:black 0.5px inset;
+    opacity: 1.0;
+    }
+/* pics row 3 postion */
+    .picsRow3{
+        top: 126%;
+        left:3%;
+        position: absolute;
+        width: 250px;
+        height: 200px;
+        transition: 500ms;
+
+        opacity: 0.5;
+        }
+        
+        .picsRow3:hover{
+        position: absolute;
+        width: 280px;
+        height: 220px;
+        transition: 1000ms;
+        border:black 0.5px inset;
+        opacity: 1.0;
+        }
+
+
+.product{
+    font-size: 1.4rem;
+    background-color:none;
+    cursor: pointer;
+    font-style: oblique;
+    color:#F7F6F0;
+    display: block;
+      text-align: center;
+      padding: 23px 16px;
+      float: left;
+      transition: 1000ms;
+}
+    
+.product:hover{
+    border-radius: 40px 40px 40px 40px;  
+    font-size: 1.8rem;
+    transition: 1000ms;
+    color:black;
+    background-color: cornsilk;
+}
+
+/* pics postions row 1 */
+#pic2,#pic6,#pic10,#pic14,#pic18,#pic22,#pic26,#pic30,#pic34{
+left:28%;
+}
+
+/*  pics postions row 2 */
+#pic3,#pic7,#pic11,#pic15,#pic19,#pic23,#pic27,#pic31,#pic35{
+left:53%; 
+    }
+
+/* pics postions row 3 */
+ #pic4,#pic8,#pic12,#pic16,#pic20,#pic24,#pic28,#pic32,#pic36{
+left:78%;     
+ }
+
+.addToCart{
+    background-color: none;
+    border: none;
+    font-size: 1rem;
+    color:rgb(37, 36, 36);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btn{
+
+border: unset 0.5px;
+transition:1000ms ;
+width: 18%;
+}
+
+.btn:hover{
+transition:1000ms ;
+background-color:rgb(184, 189, 184);
+color:white;
+width: 30%;
+}
+

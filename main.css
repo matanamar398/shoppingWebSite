@@ -1,0 +1,209 @@
+body
+{
+background-color: #F7F6F0;
+}
+
+.topDiv{
+background-color :black;
+height: 12%;
+width: 100%;
+position: absolute;
+}
+
+.searchInput{
+position: absolute;
+left: 45%;
+top: 25%;
+border: none;
+font-size: 1.2rem;
+width: 40%;
+height: 50%;
+font-style: italic;
+color:black;
+cursor: text;
+border-radius: 0px 12px 12px 0px;  
+transition: 2000ms;
+}
+
+.searchInput:hover{
+    transition: 2000ms;
+    background-color: #E8EBFF;
+   }
+
+.searchBtn{
+ position: absolute;
+ left: 41.6%;
+ top: 25%;
+ border: none;
+ cursor: pointer;
+ font-size: 2.15rem;
+ transition: 1000ms;
+ box-shadow: 10px 10 px;
+ background-color:#F0F1F8;
+ color: white;
+border-radius: 12px 0px 0px 12px;  
+
+}
+
+.searchBtn:hover{
+
+ transition: 1000ms;
+ background-color:white;
+color:#dadffc;
+ 
+}
+
+.product{
+    font-size: 1.4rem;
+    background-color:none;
+    cursor: pointer;
+    font-style: oblique;
+    color:#F7F6F0;
+    display: block;
+      text-align: center;
+      padding: 23px 16px;
+      float: left;
+}
+    
+    .product:hover{
+    color: wheat;
+}
+    
+
+#shop{
+position: absolute;
+font-size: 4.4rem;
+left: 91%;
+color:#F7F6F0;
+transition: 1000ms;
+transform: rotate(-360deg);
+}
+
+#shop:hover{
+    transform: rotate(360deg);
+    color: #E8EBFF;
+    transition: 1000ms;
+}
+
+#picLeft{
+border: 1.4px solid;
+position: absolute;
+top:20%;
+left:3%;
+width: 1250px;
+height: 370px;
+transition: 1000ms;
+box-shadow: 30px  10px 20px 0px lightgray;
+}
+
+#copyRight{
+
+position: absolute;
+bottom: -100%;
+color:rgb(27, 26, 26);
+font-size: 1.5rem;
+font-style: oblique;
+}
+#copyRightMain{
+
+    position: absolute;
+    bottom: -160%;
+    color:rgb(27, 26, 26);
+    font-size: 1.5rem;
+    font-style: oblique;
+    }
+
+.pics{
+    position: absolute;
+    top:88%;
+    left: 60%;
+    width: 150px;
+    height: 150px;
+    border:1.0px solidk;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+    transition: 1000ms;
+}
+
+.pics:hover{
+    transition: 1000ms;
+    width: 200px;
+    height: 200px;
+}
+.pics4{
+    position: absolute;
+    top:123%;
+    left: 63%;
+    width: 600px;
+    height: 400px;
+  
+}
+.pics5{
+    position: absolute;
+    top:187%;
+    left: 58%;
+    width: 600px;
+    height: 400px;
+
+  
+}
+
+#smallPic1{
+position: absolute;
+left:8%;
+}
+#smallPic2{
+    position: absolute;
+    left:23%;
+    }
+    #smallPic3{
+        position: absolute;
+        left:38%;
+        }
+        #smallPic4{
+            position: absolute;
+            left:53%;
+            }
+            #smallPic5{
+                position: absolute;
+                left:68%;
+                }
+                #smallPic6{
+                    position: absolute;
+                    left:83%;
+                    }
+                        #smallPic7{
+                            position: absolute;
+                            left:6%;
+                            border-radius: 0px 15px 0px 15px;
+                            }
+                            #smallPic8{
+                                position: absolute;
+                                left:52%;
+                                border-radius: 0px 15px 0px 15px;
+                                }
+                                #smallPic9{
+                                    position: absolute;
+                                    left:6%;
+                                    border-radius: 0px 15px 0px 15px;
+                                    }
+                                    #smallPic10{
+                                        position: absolute;
+                                        left:52%;
+                                        border-radius: 0px 15px 0px 15px;
+                                        }
+
+#cartBtn{
+    position: absolute;
+    top:16%;
+    left: 27%;
+    width: 4rem;
+    height:  3rem;
+    border: none;
+    background-color:  wheat;
+    border-radius: 20px 20px 20px 20px;
+    font-size: larger;
+}
+#cartBtn:hover{
+    background-color:  rgb(255, 255, 255);
+}
